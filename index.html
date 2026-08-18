@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Justin Brown — portfolio of a 21-year-old developer from Jamaica.">
+  <title>Justin Brown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <a href="#" class="nav__logo">JB</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="hero__greeting fade-in">Hello, I'm</p>
+      <h1 class="hero__name fade-in">Justin Brown</h1>
+      <p class="hero__tagline fade-in">21 &middot; Jamaica</p>
+      <p class="hero__intro fade-in">
+        Building thoughtful digital experiences with clean code and quiet design.
+      </p>
+      <a href="#work" class="hero__cta fade-in">View my work</a>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section__title fade-in">About</h2>
+      <div class="about__content fade-in">
+        <p>
+          I'm Justin, a 21-year-old from Jamaica with a passion for creating
+          simple, purposeful things on the web. I believe the best work speaks
+          softly — letting ideas and craft do the talking.
+        </p>
+        <p>
+          When I'm not coding, you'll find me exploring new music, learning
+          something new, or enjoying the island life that keeps me grounded.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <h2 class="section__title fade-in">Work</h2>
+      <ul class="work__list">
+        <li class="work__item fade-in">
+          <a href="#" class="work__link">
+            <span class="work__number">01</span>
+            <div class="work__info">
+              <h3 class="work__title">Project One</h3>
+              <p class="work__desc">A web application built with vanilla JavaScript.</p>
+            </div>
+            <span class="work__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+        <li class="work__item fade-in">
+          <a href="#" class="work__link">
+            <span class="work__number">02</span>
+            <div class="work__info">
+              <h3 class="work__title">Project Two</h3>
+              <p class="work__desc">An experiment in minimal UI and interaction design.</p>
+            </div>
+            <span class="work__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+        <li class="work__item fade-in">
+          <a href="#" class="work__link">
+            <span class="work__number">03</span>
+            <div class="work__info">
+              <h3 class="work__title">Project Three</h3>
+              <p class="work__desc">A data visualization exploring local trends.</p>
+            </div>
+            <span class="work__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="section__title fade-in">Contact</h2>
+      <p class="contact__text fade-in">
+        Have a project in mind or just want to say hello?<br>
+        I'd love to hear from you.
+      </p>
+      <a href="mailto:justin@example.com" class="contact__email fade-in">justin@example.com</a>
+      <ul class="contact__social fade-in">
+        <li><a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Justin Brown</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
