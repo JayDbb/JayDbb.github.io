@@ -159,6 +159,13 @@ main {
 .hero__tagline {
   font-size: 0.875rem;
   color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.hero__badge {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--accent);
   margin-bottom: 2rem;
 }
 
@@ -194,6 +201,21 @@ main {
   margin-bottom: 0;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.skills li {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+}
+
 /* Work */
 
 .work__list {
@@ -217,8 +239,17 @@ main {
   transition: padding-left 0.3s ease;
 }
 
-.work__link:hover {
+.work__link:hover,
+.work__link:focus-visible {
   padding-left: 0.5rem;
+}
+
+.work__link--static {
+  cursor: default;
+}
+
+.work__link--static:hover {
+  padding-left: 0;
 }
 
 .work__link:hover .work__arrow {
